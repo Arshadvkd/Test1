@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="user-PC1" name="com.tranquil.testcases.VerifyLogin" tests="1" failures="0" timestamp="3 Feb 2020 04:32:20 GMT" time="19.03" errors="0">
+  <testcase name="checkVaidUser" time="19.025" classname="com.tranquil.testcases.VerifyLogin"/>
+</testsuite>

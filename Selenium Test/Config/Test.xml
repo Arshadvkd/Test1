@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ERPTest">
+	<test name="tested">
+
+		<classes>
+			<class name="com.tranquil.testcases.CreditNoteSave" />
+			<class name="com.tranquil.testcases.DebitNoteSave" />
+			<class name="com.tranquil.testcases.ExpenseSave" />
+			<class name="com.tranquil.testcases.ItemSave" />
+			<class name="com.tranquil.testcases.ManualJournalSave" />
+			<class name="com.tranquil.testcases.PuchaseRequestSave" />
+			<class name="com.tranquil.testcases.PurchaseOrderSave" />
+			<class name="com.tranquil.testcases.QuotationSave" />
+			<class name="com.tranquil.testcases.ReceiptSave" />
+			<class name="com.tranquil.testcases.RFQSave" />
+			<class name="com.tranquil.testcases.SalesEnquirySave" />
+			<class name="com.tranquil.testcases.SalesOrderSave" />
+			<class name="com.tranquil.testcases.ServiceEnquirySave" />
+			<class name="com.tranquil.testcases.VerifyLogin" />
+			<class name="com.tranquil.testcases.ItemServiceSave" />
+			<class name="com.tranquil.testcases.AccountsFinanceReports" />
+			<class name="com.tranquil.testcases.InventoryReport" />
+			<class name="com.tranquil.testcases.JobReports" />
+			<class name="com.tranquil.testcases.SalesReports" />
+			<class name="com.tranquil.testcases.PurchaseReports" />
+			<class name="com.tranquil.testcases.SalesInvoiceSave" />
+			<class name="com.tranquil.testcases.SalesEnquiry_Quotation" />
+			<class name="com.tranquil.testcases.GoodsDeliveryNote_FullyDelivered" />
+			<class name="com.tranquil.testcases.GoodsDeliveryNote_Partialdelivery" />
+		</classes>
+	</test>
+</suite>

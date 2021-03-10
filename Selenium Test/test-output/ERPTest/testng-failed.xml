@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ERPTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="tested(failed)">
+    <classes>
+      <class name="com.tranquil.testcases.AccountsFinanceReports">
+        <methods>
+          <include name="click_daybook"/>
+          <include name="inventory"/>
+          <include name="click_menu"/>
+        </methods>
+      </class> <!-- com.tranquil.testcases.AccountsFinanceReports -->
+      <class name="com.tranquil.testcases.InventoryReport">
+        <methods>
+          <include name="click_stockreport"/>
+          <include name="takescreenshot"/>
+          <include name="inventory"/>
+          <include name="click_menu"/>
+        </methods>
+      </class> <!-- com.tranquil.testcases.InventoryReport -->
+      <class name="com.tranquil.testcases.SalesReports">
+        <methods>
+          <include name="inventory"/>
+          <include name="click_menu"/>
+          <include name="click_menuback"/>
+          <include name="click_quotations"/>
+          <include name="takescreenshot"/>
+        </methods>
+      </class> <!-- com.tranquil.testcases.SalesReports -->
+      <class name="com.tranquil.testcases.ExpenseSave">
+        <methods>
+          <include name="save_salesorder"/>
+          <include name="saveexpense"/>
+        </methods>
+      </class> <!-- com.tranquil.testcases.ExpenseSave -->
+      <class name="com.tranquil.testcases.ItemSave">
+        <methods>
+          <include name="Invokeitem"/>
+          <include name="SaveItem"/>
+        </methods>
+      </class> <!-- com.tranquil.testcases.ItemSave -->
+      <class name="com.tranquil.testcases.ServiceEnquirySave">
+        <methods>
+          <include name="saveserviceenquiry"/>
+        </methods>
+      </class> <!-- com.tranquil.testcases.ServiceEnquirySave -->
+      <class name="com.tranquil.testcases.PurchaseReports">
+        <methods>
+          <include name="click_menu"/>
+          <include name="click_purchaseorder"/>
+          <include name="takescreenshot"/>
+          <include name="inventory"/>
+        </methods>
+      </class> <!-- com.tranquil.testcases.PurchaseReports -->
+      <class name="com.tranquil.testcases.QuotationSave">
+        <methods>
+          <include name="quotationreport_data_writing"/>
+        </methods>
+      </class> <!-- com.tranquil.testcases.QuotationSave -->
+    </classes>
+  </test> <!-- tested(failed) -->
+</suite> <!-- Failed suite [ERPTest] -->
